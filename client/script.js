@@ -81,7 +81,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
 
-  const response = await fetch("https://ask-ai-sv24.onrender.com", {
+  const response = await fetch("https://ask-ai-6xc5.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
